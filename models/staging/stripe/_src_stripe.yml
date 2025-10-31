@@ -1,0 +1,7 @@
+sources:
+  - name: stripe
+    description: "This is the source for stripe payments data"
+    database: raw
+    schema: stripe
+    tables:
+      - name: payments

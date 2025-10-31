@@ -1,0 +1,10 @@
+sources:
+  - name: jaffle_shop
+    description: "This is the source for jaffle shop data"
+    database: raw
+    schema: jaffle_shop
+    tables:
+      - name: customers
+        description: "Raw customers data for the Jaffle Shop."
+      - name: orders
+        description: "Raw orders data for the Jaffle Shop."
